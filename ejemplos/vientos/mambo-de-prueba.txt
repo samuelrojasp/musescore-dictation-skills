@@ -1,0 +1,21 @@
+Title: Mambo de Prueba
+Arranger: Samuel
+Key: Bb
+Time: 4/4
+Tempo: 110
+
+[Intro]
+TP: f F5:8! F! R:4 D:8> C Bb:4 | C:2 R:2 ||
+AS: f D5:8! D! R:4 Bb:8> A F:4 | A:2 R:2 ||
+TS: f Bb4:8! Bb! R:4 F:8> F D:4 | F:2 R:2 ||
+TB: f Bb2:8! Bb! R:4 Bb:8> Bb Bb:4 | F:2 R:2 ||
+
+[Verso]
+TP: R*4
+TB: R*4
+
+[Mambo]
+TP: mf (D5:4 Eb F G) | F:1^
+AS: mf (Bb4:4 C D Eb) | D:1^
+TS: mf (F4:4 G A Bb) | Bb:1^
+TB: mf Bb2:4 A G F | Bb:1^

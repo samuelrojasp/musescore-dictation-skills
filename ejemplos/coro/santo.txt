@@ -1,0 +1,23 @@
+Title: Santo
+Composer: S. Rojas
+Subtitle: Para coro SAT
+Arranger: Samuel
+Voices: S A T
+Key: G
+Time: 3/4
+Tempo: 72 Solemne
+
+[A]
+S: D4:4 | mf G A B | C:2 B:4 | A G F# | G:2.^ ||
+A: D4:4 | D D D | E:2 D:4 | C B C | B:2.^ ||
+T: B3:4 | B C D | C:2 G:4 | A F# A | D':2.^ ||
+Chords: | G . D | C . G | Am D7 . | G |
+Lyrics: San-to, san-to, san-to~es el Se-ñor Dios
+Lyrics 2: Glo-ria~a Dios en las al-tu-ras, a-mén
+
+[Coro]
+S: f B:4 B B | C:2 A:4 | B A G~ | G:2.
+A: G4:4 G G | A:2 F#:4 | G F# D~ | D:2.
+T: D:4 D D | E:2 D:4 | D C B~ | B:2.
+Chords: | G | Am D | G D | G |
+Lyrics: Ho-san-na, ho-san-na _ Dios

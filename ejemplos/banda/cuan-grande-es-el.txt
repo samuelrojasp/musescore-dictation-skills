@@ -1,0 +1,10 @@
+Title: Cuán Grande Es Él
+Tempo: 72 Balada
+Key: Bb
+Time: 4/4
+[Intro]
+|: Bb | Eb/Bb | F7sus4 F7 | Bb :|
+[Verso]
+| Bb | Eb | Bb F/A | Gm7 . F . ||
+[Coro]
+|: Eb | Bb/D | Cm7 . F7 Ab | Bb :|x3
