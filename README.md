@@ -12,6 +12,7 @@ Todo funciona en dos pasos:
 | Cifrado para banda (slashes) | [`chart-dictation`](skills/chart-dictation) | [`slash-chart-musescore`](skills/slash-chart-musescore) | `.mscz` con barras rítmicas, acordes, secciones, repeticiones, estilo *Real Book* |
 | Coro a 3 o 4 voces con letra | [`choir-dictation`](skills/choir-dictation) | [`choir-score-musescore`](skills/choir-score-musescore) | `.mscz` + PDF + reducción de piano + audios de ensayo por voz |
 | Sección de vientos (trompetas, saxos, trombón) | [`brass-dictation`](skills/brass-dictation) | [`brass-score-musescore`](skills/brass-score-musescore) | `.mscz` + PDF transpuestos por instrumento, con el **nombre de la nota dentro de la cabeza** |
+| Partitura completa → cifrado | [`score-to-chart`](skills/score-to-chart) (lee un PDF o fotos) | [`slash-chart-musescore`](skills/slash-chart-musescore) | Cifrado compacto con repeticiones a partir de una partitura de piano/voz/guitarra, lead sheet u orquestal |
 
 ## Ejemplos
 
@@ -70,6 +71,10 @@ TB: f Bb2:8! Bb! R:4 Bb:8> Bb Bb:4 | F:2 R:2 ||
 
 ![Sección de vientos](ejemplos/vientos/mambo-de-prueba.png)
 
+### De partitura completa a cifrado
+
+Con [`score-to-chart`](skills/score-to-chart) le mandas a Claude el PDF (o fotos) de una partitura de piano/voz/guitarra, un lead sheet o una partitura orquestal, y obtienes el cifrado con barras para la banda. Lee los acordes compás por compás, verifica con los números de compás impresos, detecta las secciones y compacta lo que se repite: una partitura de 10 páginas y 120 compases quedó en un cifrado de 70 compases escritos.
+
 Todos los archivos de ejemplo (`.txt` de entrada, `.mscz`, `.pdf`, `.mp3`) están en [`ejemplos/`](ejemplos).
 
 ## Requisitos
@@ -80,7 +85,7 @@ Todos los archivos de ejemplo (`.txt` de entrada, `.mscz`, `.pdf`, `.mp3`) está
 
 ## Instalación
 
-Cada carpeta dentro de [`skills/`](skills) es una skill completa (`SKILL.md` + script). Instala las seis, o solo el par que necesites (la skill de dictado usa el script de su skill de partitura).
+Cada carpeta dentro de [`skills/`](skills) es una skill completa (`SKILL.md` + script). Instala las siete, o solo las que necesites: cada skill de dictado usa el script de su skill de partitura, y `score-to-chart` usa `slash-chart-musescore`.
 
 **Claude (web, escritorio, Cowork)**
 
@@ -104,6 +109,7 @@ Pídele a Claude cosas como:
 - *"Te dicto una canción para la banda: título…, intro cuatro compases de re…"* → `chart-dictation`
 - *"Te dicto un arreglo para coro SAT: soprano, compás uno: re negra…"* → `choir-dictation`
 - *"Te mando la foto de las notas de los vientos"* → `brass-dictation`
+- *"Convierte este PDF de la partitura en cifrado para la banda"* → `score-to-chart`
 
 Claude te mostrará el texto convertido y las dudas; corriges por voz o texto ("el compás seis es mi menor") y cuando dices *"dale"* genera la partitura.
 
